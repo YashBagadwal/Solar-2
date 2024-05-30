@@ -5907,7 +5907,9 @@ footer.main-footer{
 	}
 
 	.navbar-brand img{
-		max-height: 100px;
+		max-height: 80px;
+		position: relative;
+		top: 15px;
 	}
 
 	.topbar-contact-info ul{
