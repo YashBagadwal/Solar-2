@@ -342,13 +342,13 @@ a:focus{
 
 .section-title h3:before{
 	content: '';
-	display: block;
+	display:none;
 	width: 12px;
 	height: 16px;
 	position: absolute;
 	left: 0;
 	top: 0;
-	background: url(../images/icon-sub-heading.svg) no-repeat left center;
+	/* background: url(../images/icon-sub-heading.svg) no-repeat left center; */
 	z-index: -1;
 }
 
@@ -1650,7 +1650,7 @@ header.main-header .header-sticky.active{
 	right: 0;
 	width: 212px;
 	height: 46px;
-	background: url(../images/icon-step1.svg) no-repeat center center;
+	background: url(../images/right-arrow.png) no-repeat center center;
 	background-size: 100% auto;
 	transform: translate(156px,-50%);
 }
@@ -1663,7 +1663,7 @@ header.main-header .header-sticky.active{
 	right: 0;
 	width: 212px;
 	height: 46px;
-	background: url(../images/icon-step2.svg) no-repeat center center;
+	background: url(../images/right-arrow.png) no-repeat center center;
 	background-size: 100% auto;
 	transform: translate(156px,-50%);
 }
